@@ -1,9 +1,9 @@
 (function() {
     var video = document.getElementById('video'),
         vendorUrl = window.URL || window.webkitURL;
-
+        
 // on source les dif media (chrome, moz, microsft)
-        navigator.getMedia = navigator.getUserMedia ||
+    navigator.getMedia = navigator.getUserMedia ||
                          navigator.webkitGetUserMedia||   
                          navigator.mozGetUserMedia ||
                          navigator.msGetUserMedia; 
