@@ -87,7 +87,7 @@ function outputUsers(users) {
 document.getElementById('leave-btn').addEventListener('click', () => {
   const leaveRoom = confirm('Êtes-vous sur de vouloir quitter la session ?');
   if (leaveRoom) {
-    window.location = '../index.html';
+    window.location = 'accueil.php';
   } else {
   }
 });
