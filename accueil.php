@@ -10,7 +10,7 @@
 			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
 			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="stylechat.css" />
 		<title>ChatIdiomas</title>
 	</head>
 	<body>
@@ -19,7 +19,7 @@
 				<h1> ChatIdiomas</h1>
 			</header>
 			<main class="join-main">
-				<form action="chat.html">
+				<form action="chat.php">
 					<div class="form-control">
 						<label for="username"> Nom d'utilisateur</label>
 						<input
